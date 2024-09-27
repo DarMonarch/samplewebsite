@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'QuirkyFont';
+    src: url('fonts/quirky-font.woff2') format('woff2'),
+         url('fonts/quirky-font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  body{
+    font-family: 'QuirkyFont', cursive;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  p, ul{
+    font-size: large;
+  }
