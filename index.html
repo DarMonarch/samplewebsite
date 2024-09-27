@@ -1,11 +1,31 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>HomeWork</title>
-  </head>
-  <body style="text-align: center; background-color: aqua">
-    <p><b>I did my HomeWork.</b></p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Serving_Fonts.css">
+    <title>Custom Service Font</title>
+</head>
+<body>
+    <h1>Lab- 3: Serving Fonts Assignment</h1> <br><br>
+    <p>This Webpage contains the example of custom font service where we can't get the font style from the default source.</p>
+    <ul>
+        <li>We can custom the font style by using @font-face rule in CSS to get font from server.</li><br>
+        <li>By specifying the location of font files stored in the server.</li> <br>
+        <li>Next step is to apply the custom font to the HTML elements on webpage.</li><br>
+    </ul>
+    <p>The font style that I got from the server is 'Quirky Font'.</p><br><br>
+    
 
-  </body>
+
+    <footer>
+        <p style="text-align: center;"><b>Last updated:</b> 
+            <span id="foot_tag"></span>
+        </p>
+    </footer>
+    <script type="text/javascript">
+         var l = document.lastModified;
+         document.getElementById('foot_tag').textContent = l;
+    </script>
+</body>
 </html>
